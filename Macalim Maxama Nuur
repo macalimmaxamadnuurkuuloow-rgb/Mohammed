@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Macalim Maxamad</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+header p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  backdrop-filter: blur(5px);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #7dd3fc;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0,0,0,0.3);
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1>MACALIM MAXAMAD</h1>
+    <p>Website Casri ah oo Ganacsi & Profile ah</p>
+    <a href="https://wa.me/252615614785" class="btn">WhatsApp Nala Soo Xiriir</a>
+  </header>  <section>
+    <div class="card">
+      <h2>Nagu Saabsan</h2>
+      <p>
+        Kusoo dhawoow website-keena rasmiga ah. Waxaan bixinaa adeegyo tayo sare leh,
+        naqshado casri ah, iyo adeeg online ah oo qurux badan.
+      </p>
+    </div>
+  </section>  <section>
+    <h2>Adeegyadeena</h2><div class="services">
+  <div class="card">
+    <h3>🌐 Web Design</h3>
+    <p>Waxaan sameynaa websites casri ah oo mobile-friendly ah.</p>
+  </div>
+
+  <div class="card">
+    <h3>🎨 Logo Design</h3>
+    <p>Waxaan kuu naqshadeynaa logo qurux badan oo soo jiidasho leh.</p>
+  </div>
+
+  <div class="card">
+    <h3>📢 Poster Design</h3>
+    <p>Waxaan sameynaa posters iyo boorar professional ah.</p>
+  </div>
+</div>
+
+  </section>  <section>
+    <div class="card">
+      <h2>Xiriir</h2>
+      <p>📱 WhatsApp: +252615614785</p>
+      <p>📧 Email: example@gmail.com</p>
+      <p>📍 Mogadishu, Somalia</p>
+    </div>
+  </section>  <footer>
+    <p>© 2026 MACALIM MAXAMAD NUUR - All Rights Reserved</p>
+  </footer></body>
+</html>
